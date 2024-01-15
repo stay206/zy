@@ -22,7 +22,7 @@ img{border:none;vertical-align:bottom;}
 
 @media screen and (max-width: 1230px) {
   .fixwrap{ position:static!important;}
-  .banner{padding-top:0px!important;}
+  .anner{padding-top:0px!important;}
 }
 
 
@@ -82,7 +82,7 @@ img{border:none;vertical-align:bottom;}
 
 .fixwrap{position:fixed;top:0px;left:0px;width:100%;z-index:99999;}
 
-.banner{ width:100%; height:auto; margin:0 auto; min-width:1230px; position:relative; z-index:998;max-height:650px;overflow:hidden; padding-top:133px;}
+.anner{ width:100%; height:auto; margin:0 auto; min-width:1230px; position:relative; z-index:998;max-height:650px;overflow:hidden; padding-top:133px;}
 .flexslider{position:relative;overflow:hidden; width:100%; min-width:1230px; height:auto;}
 .slides{position:relative;z-index:1; list-style:none;}
 .slides li{width:100%;height:auto; margin:0; padding:0;}
@@ -222,8 +222,8 @@ img{border:none;vertical-align:bottom;}
 .footer-con-right{float:left;letter-spacing:1px;  margin-left:15px; width:360px;}
 .bqpic{position:absolute; right:-5px;top:11px;}
 .pic2{top:27px!important;}
-.banner-public{width:100%; height:387px; position:relative; overflow:hidden; min-width:1230px;max-width:1920px;}
-.banner-public img{position:absolute; left:50%; width:1920px; margin-left:-960px;}
+.anner-public{width:100%; height:387px; position:relative; overflow:hidden; min-width:1230px;max-width:1920px;}
+.anner-public img{position:absolute; left:50%; width:1920px; margin-left:-960px;}
 .footer-public{color:#fff; font-size:14px; background:#0865b4; height:120px;  min-width:1230px;}
 .footer-public-con{width:1200px; margin:0px auto; padding-top:40px; overflow:hidden; padding-bottom:10px;position:relative;}
 .footer-public-con-left{float:left; margin-left:10px;}

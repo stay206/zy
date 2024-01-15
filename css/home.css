@@ -1,0 +1,225 @@
+.btn-group{
+    width: 111px;
+  
+      left: 2%;
+    z-index:999999999;}
+  .btn-group-vertical{
+      top: 0;
+      left: 0;        
+      z-index: 10;}
+  .btn-quicks a{
+      color: #494949;
+      display: block;
+         width: 76px;
+      text-align: center;
+      margin-bottom: 15px;}
+  .btn-quicks{
+    top: 16px;
+      left: 18px;
+      width: 76px;
+    
+    z-index: 11;}
+  .btn-group-vertical{
+     opacity: 0.4;
+     background: #fff;
+    display: none;}
+  .btn-group-vertical .glyphicon-remove{
+      border-radius: 50px;
+      background-color: #ccc;
+      padding: 6px;
+      top: -12px;
+      right: -12px;
+      cursor: pointer;}
+  
+  .main-bottom{
+    background: url(../images/bottombg1.jpg) no-repeat center bottom;
+    max-width: 1920px;
+    margin: 0 auto;}
+  
+  .bottombg{
+    bottom: 0;
+    left: 0;
+    width: 100%;}
+  .notice,
+  .resport,
+  .academic{
+    margin: 30px 0;
+    border-bottom: 2px solid #9fa0a0;
+    height: 35px;}
+  .notice span.glyphicon-volume-up{
+    font-size: 25px;
+    color: #3e3a39;
+    margin: 0 10px 0 0;}
+  .notice h4{
+    font-size: 20px;
+    color: #3e3a39;
+    margin: 0;
+    height: 35px;
+      border-bottom: 2px solid #990000;
+      padding-right:10px;}
+  .notice a,
+  .resport a,
+  .academic a{
+    font-size: 14px;
+    color: #3e3a39;
+    padding: 6px 20px 0 0;}
+  .notice-ul,
+  .academic-ul{
+    background: #dcdddd;
+    list-style: none;
+    padding: 20px;height: 272px;}
+  .notice-ul li{
+    line-height: 52px;}
+  .notice-ul li span{
+    color: #231815;
+    display: block;
+    float: left;
+    width: 20%;}
+  .notice-ul li a{
+    color: #231815;
+    line-height: 26px;
+    display: block;
+    float: right;
+    width: 80%;
+    border-left: 1px solid #231815;
+    padding: 0 0 0 15px;font-size: 14px;}
+  .notice-ul li:hover a{
+    border-left: 1px solid #990000;}
+  .resport h4{
+    font-size: 20px;
+    background: url(../images/zxzt_icon.jpg) 0 3px no-repeat;
+    color: #3e3a39;
+    margin: 0;
+    height: 35px;
+      border-bottom: 2px solid #990000;
+      padding-left:35px;}
+  .resport-ul{
+    height:272px;overflow: hidden;}
+  .resportroll{list-style: none;
+    padding: 0;}
+  .resport-ul li{display: block;position: absolute;top: 0;left: 0;z-index: 1;}
+  .resport-ul li img{
+    width: 100%;}
+  .resport-ul li a label{
+    z-index: 2;
+    bottom: 2px;
+    left: 15px;
+    color: #fff;
+    cursor: pointer;}
+  .resport-ul li.current{z-index: 3;}
+  .resport-ul .shadowbg{
+    background: #000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+      -moz-opacity: 0.75;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;}
+  .resport-ul .num{
+    bottom: 30px;
+    right: 22px;
+    z-index: 3;}
+  .resport-ul .num p{
+    margin: 0 0 0 15px;  
+      width: 12px;
+      height: 12px;
+      background: url(../images/dotwhitek.jpg) no-repeat;
+      float: left;cursor: pointer;}
+  .resport-ul .num p.act{ background: url(../images/dotwhites.jpg) no-repeat;}
+  .academic h4{
+    font-size: 20px;
+    background: url(../images/xshd_icon.jpg) 0 3px no-repeat;
+    color: #3e3a39;
+    margin: 0;
+    height: 35px;
+      border-bottom: 2px solid #990000;
+      padding-left:35px;}
+  .academic-ul li span{
+    padding-top: 5px;}
+  .academic-ul li a{
+    color: #231815;
+    line-height: 24px;
+    width: 70%;}
+  .academic-ul li a p{
+    font-size: 14px;
+    color: #595757;
+    line-height: 20px;height: 40px;
+      overflow: hidden;margin: 0;}
+  .academic-ul li span i.year{
+    background: #223d98;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    font-style: normal;
+    line-height: 39px;
+    height: 39px;
+    text-align: center;
+    width: 80px;} 
+  .academic-ul li span i.date{
+    background: #fff;
+    color: #223d98;
+    font-size: 18px;
+    display: block;
+    font-style: normal;
+    line-height: 39px;
+    height: 39px;
+    text-align: center;
+    width: 80px;} 
+  
+  .popover{
+  background: #fff;
+  width: 199px;
+  text-align: center;
+  z-index: 3;}
+  .popover.popover1{
+  background: #fff;
+  width: 202px;
+  text-align: center;
+  z-index: 3;}
+  .popover-wb-content{
+    background: url(../images/weibo_xtu.jpg) no-repeat center;
+    width: 197px;
+    height: 200px;}
+  
+  .popover-wx-content{
+    background: url(../images/weixin_xtu_gzh.jpg) no-repeat center;
+    width: 200px;
+    height: 200px;}
+  .popover.top {
+    margin-top: -180px;}
+  .popover.top > .arrow{
+    bottom: -205px;}
+  .menubar li .yqlink{width: 282px;
+      height: 300px;
+      overflow: scroll;background: #000;
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+      -moz-opacity: 0.8;
+      box-shadow: 1px 2px 9px #000;}
+  .menubar li .yqlink a{
+    display: block;padding-left: 10px;
+    color: #fff;line-height: 24px;font-size: 14px;}
+  .dropdown.open .yqlink{width: 250px;}
+  .dropdown.open .yqlink a{font-size: 13px;}
+  @media (min-width: 1200px){
+      .notice-ul li {margin:19px 0;}
+      .academic-ul li {padding: 10px 0 20px 0;}
+  }
+  @media (max-width: 1200px){
+    .main-bottom{background: #f7f8f8;}
+  }
+  @media (min-width: 992px) and (max-width: 1199px){
+      .notice-ul, .resport-ul, .academic-ul{height: 224px;}
+      .notice-ul li{margin: 0 0 19px 0;}
+      .notice-ul li a{height: 50px;overflow: hidden;}
+      .academic-ul li{padding: 0 0 10px 0;}
+  }
+  @media (min-width:768px) and (max-width: 991px){
+      .notice-ul, .resport-ul{height: 260px;}
+  }
+  @media (min-width:768px) and (max-width:1200px){
+    .school-news ul li span,
+    .media-news ul li span{padding: 10px 0;}
+  }
